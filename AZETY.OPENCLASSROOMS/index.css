@@ -1,0 +1,140 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    /* box-sizing: border-box; */
+}
+
+
+body {
+    background-color: white;
+    justify-content: center;
+}
+
+
+#AZertitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 40%;
+}
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(233, 137, 69);
+    margin-top: 25px;
+}
+.sentence1,
+h3 {
+    color: rgb(233, 137, 69);
+    margin-left: -10%;
+}
+.sentence2,
+h4 {
+    color: rgb(233, 137, 69);
+    margin-left: -20%;
+
+
+}
+
+
+
+#AZer-container {
+    border-radius: 20px;
+    background-color: rgb(245, 152, 86);
+    height: 40vh;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    padding: 30px;
+    margin-left: 30%;
+    margin-top: 60px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p {
+    color: white;
+    justify-content: center;
+}
+.AZer-zero {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin-left: 30%;
+    /* justify-content:; */
+    margin-top: 25px;
+    gap: 1em;
+}
+
+.AZer-container-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.cach1 {
+    display: flex;
+    justify-content: center;
+    height: 7vh;
+    border-radius: 12px;
+    color:#f76c5e;
+    font:bold;
+    font-weight: bold;
+    font-size:larger;
+    padding-left:180px;
+    /* background-color:#a09895;  */ 
+}
+
+#one{
+    height: 4vh;
+    width: 65%;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: -25px;
+}
+#two{
+    height: 4vh;
+    width: 30%;
+    border-radius: 8px;
+    margin-left:330px;
+    color:rgb(233, 137, 69);  
+}
+
+
+.end{
+    margin-left: 160px;
+    margin-top:10px;
+}
+
+
+.tree{
+    height: 5vh;
+    width: 30%;
+    border-radius: 8px;
+    margin-left:170px;
+    margin-top: 10px;
+    color:rgb(233, 137, 69);  
+}
+
+
+
+footer{
+    
+      
+    background-color:rgb(233, 137, 69)  ;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    padding: 15px;
+    font-size: 17px;
+    font-weight: bold;
+
+}
+
+/* p {
+    filter: grayscale(1);
+} */
+
